@@ -14,12 +14,12 @@ data = newsapi.get_everything(q = Topic,language='en', page_size=20)
 # sources="the-verge" to get the articles from certain source.
 articles = data['articles']
 
-print("______________________________________________________________________________________\n")
+print("_______________________________________________________________________________________\n")
 
 for x, y in enumerate(articles):
     print(f"{x}   {y['title']}")
 
-print("\n______________________________________________________________________________________")
+print("\n_______________________________________________________________________________________")
 
 # data is dict here.
 
